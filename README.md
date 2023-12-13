@@ -4,6 +4,8 @@ This is an ASP.NET test project. You can create, update, get pokemons with this 
 We use an MySQL Server to store all pokemons.
 This project is only for testing ASP.NET
 
+# start up with docker
+docker-compose up -d
 
 # Commands
 
