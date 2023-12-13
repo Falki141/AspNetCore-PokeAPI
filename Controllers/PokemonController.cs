@@ -55,7 +55,7 @@ namespace AspNetPokeAPi.Controllers
                     })
                 .FirstOrDefaultAsync(s => s.Id == Id);
 
-            if (User == null)
+            if (Pokemon == null)
             {
                 return NotFound();
             }
